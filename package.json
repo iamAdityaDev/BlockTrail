@@ -1,0 +1,46 @@
+{
+  "name": "chainscout",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@airstack/node": "^0.0.5",
+    "@metamask/sdk-react": "^0.14.1",
+    "@pushprotocol/restapi": "^1.4.45",
+    "@radix-ui/react-icons": "^1.3.0",
+    "@radix-ui/themes": "^2.0.2",
+    "@rainbow-me/rainbowkit": "^1.3.0",
+    "@waku/react": "^0.0.5-63a782d",
+    "@waku/sdk": "^0.0.21",
+    "@xmtp/xmtp-js": "^11.2.3",
+    "anon-aadhaar-react": "^0.1.14",
+    "axios": "^1.6.2",
+    "ethers": "5.7.2",
+    "next": "14.0.4",
+    "protobufjs": "^7.2.5",
+    "react": "^18",
+    "react-confetti": "^6.1.0",
+    "react-dom": "^18",
+    "react-use": "^17.4.2",
+    "sonner": "^1.2.4",
+    "urql": "^4.0.6",
+    "viem": "^1.19.11",
+    "wagmi": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
